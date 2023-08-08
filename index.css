@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    background-color: #331d3a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.mynavbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: bold;
+    position: inherit;
+    top: 0;
+    background-color: #1a2834;
+}
+.nav-left-element{
+    width: 30%;
+    /* border: 2px solid red; */
+    padding: 20px;
+
+}
+.nav-right-element{
+    width: 70%;
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.nav-item{
+    /* padding: 20px; */
+    /* padding: 5px; */
+}
+.mynavbar a{
+    text-decoration: none;
+    padding: 10px;
+    color: aqua;
+
+}
+.mynavbar a:hover{
+    color: orange;
+    border-bottom: 1px solid orange;
+
+}
+#just-below-navbar{
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    font-weight: bold;
+
+}
+#just-below-navbar input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.myfooter a{
+    color: white;
+}
+
+#mealContainer{
+    /* border: 5px solid green; */
+}
+.myCard{
+    /* width: 25%; */
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin: 20px;
+    padding: 19px;
+}
+.btnDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.btnDiv button{
+    padding: 5px;
+    border-radius: 5px;
+}
+#search-meal{
+    color: white;
+
+}
+.search-part input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#search-content{
+    display: flex;
+}
+#main-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.myfooter {
+  /* Keep the footer at the bottom */
+  margin-top: auto;
+  width: 100%;
+  /* position: fixed;
+  bottom: 0%;
+  height: 60px; */
+  background: #1a2834;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Add other styles as necessary */
+}
+.about-me{
+    color: white;
+    /* text-align: center; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mealDetails{
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    width: 80%;
+    margin: auto;
+}
+.mealsImg{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+
