@@ -74,7 +74,7 @@ function createMealCard(meal) {
         sessionStorage.setItem('selectedMeal', JSON.stringify(meal));
 
         // Navigate to view.html
-        window.location.href = './extra/view.html';
+        window.location.href = 'view.html';
     });
 
     resultCard.appendChild(cardImg);
